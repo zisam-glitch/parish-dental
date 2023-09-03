@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-['Open_Sans'];
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-['Catamaran'];
+}
+
+/* .hero-carousel .swiper-button-prev {
+  @apply !text-primary bg-white p-6 rounded transition-colors !left-10 !hidden;
+}
+
+.hero-carousel .swiper-button-next {
+  @apply !text-primary bg-white p-6 rounded transition-colors !right-10 !hidden;
+}
+
+@media (min-width: 768px) {
+  .hero-carousel .swiper-button-prev {
+    @apply !flex;
+  }
+  .hero-carousel .swiper-button-next {
+    @apply !flex;
+  }
+}
+
+.hero-carousel .swiper-button-prev:hover,
+.hero-carousel .swiper-button-next:hover {
+  @apply !text-white bg-secondary;
+}
+
+.hero-carousel .swiper-button-prev::after {
+  @apply !text-2xl;
+}
+
+.hero-carousel .swiper-button-next::after {
+  @apply !text-2xl;
+}
+
+.hero-carousel .swiper-pagination-bullet {
+  @apply !opacity-100 !mx-3 transition-all;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(1) {
+  @apply bg-secondary;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(2) {
+  @apply bg-background;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(3) {
+  @apply bg-primary;
+}
+
+.hero-carousel .swiper-pagination-bullet:nth-child(4) {
+  @apply bg-backgroundSecondary;
+}
+
+.hero-carousel .swiper-pagination-bullet-active {
+  @apply scale-[2.0];
+}
+
+.reviews-carousel .swiper-wrapper {
+  @apply mb-5;
+}
+
+.reviews-carousel .swiper-pagination-bullet {
+  @apply !opacity-100 !mx-3 transition-all;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(1) {
+  @apply bg-secondary;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(2) {
+  @apply bg-background;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(3) {
+  @apply bg-primary;
+}
+
+.reviews-carousel .swiper-pagination-bullet:nth-child(4) {
+  @apply bg-backgroundSecondary;
+}
+
+.reviews-carousel .swiper-pagination-bullet-active {
+  @apply scale-[2.0];
+} */
+
+::-webkit-datetime-edit-fields-wrapper {
+  @apply text-gray-400 focus:text-gray-600;
+}
+::-webkit-calendar-picker-indicator {
+  @apply filter opacity-60;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.banner-triangle {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-triangle {
+    display: block;
+  }
+}
+
+.fade-animation {
+  transition: opacity 1500ms;
+}
+
+.hide {
+  transition: opacity 1500ms;
+  opacity: 0;
+}
+
+.show {
+  transition: opacity 1500ms;
+  opacity: 1;
+}
+
+.hero-carousel .focusRing___1airF.carousel__slide-focus-ring {
+  outline: none !important;
+}
+
+#nprogress .bar {
+  height: 3px !important;
+}
+
+.hero-carousel .carousel__dot {
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  @apply transition-all;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--0 {
+  @apply bg-secondary;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--1 {
+  @apply bg-background;
+}
+
+.carousel__dot.carousel__dot--2 {
+  @apply bg-primary;
+}
+
+.hero-carousel .carousel__dot.carousel__dot--selected {
+  width: 15px;
+  height: 15px;
+}
