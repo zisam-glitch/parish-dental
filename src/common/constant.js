@@ -7,7 +7,6 @@ export const navPages = [
   { id: 6, name: "Team", route: "/meet-the-team" },
   { id: 7, name: "Vacancies", route: "/vacancies" },
   { id: 8, name: "Blogs", route: "/blogs" },
-  { id: 9, name: "Shop", route: "/shop" },
 ];
 
 export const policyPages = [
