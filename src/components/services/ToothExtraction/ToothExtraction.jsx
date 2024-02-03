@@ -4,12 +4,13 @@ import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
 import HomeBanner from "../../home/HomeBanner";
-
+import ToothExtractionBody from "./ToothExtractionBody"
+import ToothExtractionHeader from "./ToothExtractionHeader";
 const ClearAligners = () => {
   return (
     <>
-      <ClearAlignersBaner />
-      <ClrarContent />
+      <ToothExtractionHeader/>
+      <ToothExtractionBody/>
       <Faq />
       <div className="mb-5">
         <HomeBanner />

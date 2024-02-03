@@ -8,7 +8,7 @@ const ClearAlignersBaner = () => {
       <StaticImage
         layout="fullWidth"
         className="h-screen"
-        src="https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,w_1305/v1702155938/young-patient-black-goggles-getting-her-teeth-treated-by-female-hygienist-using-dental-curing-light_hclxe9.jpg"
+        src=""
         // src={toothExtractionPic}
         alt="Whitening Banner"
       />
@@ -26,7 +26,7 @@ const ClearAlignersBaner = () => {
 
         <a
           className=" mt-7 flex justify-center lg:justify-start"
-          href="https://uk.dentalhub.online/v1/view/organization/6119/index.html#/perspectives/3"
+          href=""
           target="_blank"
         >
           <Button

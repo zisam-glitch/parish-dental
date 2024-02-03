@@ -161,9 +161,9 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex gap-[6%] my-14">
+        <div className="w-full md:flex-row flex-col flex gap-[6%] my-14">
           <iframe
-            className="w-[47%]"
+            className="md:w-[47%] py-4 w-full"
             height="350px"
             src="https://www.youtube.com/embed/tSeCSNEDl3g?si=s_xNx0s7SezBxk6H"
             title="About Parish Dental"
@@ -181,7 +181,7 @@ const WhyChooseUs = () => {
             allowfullscreen
           ></iframe> */}
           <img
-            className="w-[47%] h-[350px]"
+            className="md:w-[47%]  py-4 w-full h-[350px]"
             src="https://images.justgiving.com/image/69ebd779-e59c-49eb-96e5-fead51f7edaf.jpg?template=Size800w" alt="" />
         </div>
       </section>

@@ -67,15 +67,22 @@ const ClearAlignersBaner = () => {
         ></iframe>
       </div>
 
-      <div className="tab1 py-16">
-        <h1 className="blue text-3xl t-style-2	pb-16">
-          Why Choose ParishDental?
-        </h1>
-        <p className="p-style-2"></p>
-        <p className="p-style-2"> • Experienced and Compassionate Team</p>
-        <p className="p-style-2"> • State-of-the-Art Facilities</p>
-        <p className="p-style-2"> • Patient-Centric Approach</p>
-        <p className="p-style-2">• Affordable and Transparent Pricing</p>
+      <div className="tab1 py-16 flex items-center gap-[6%]">
+        <div className="w-[47%]">
+          <h1 className="blue text-3xl t-style-2 text-start	pb-8">
+            Why Choose ParishDental?
+          </h1>
+          <p className="p-style-2"></p>
+          <p className="p-style-2"> • Experienced and Compassionate Team</p>
+          <p className="p-style-2"> • State-of-the-Art Facilities</p>
+          <p className="p-style-2"> • Patient-Centric Approach</p>
+          <p className="p-style-2">• Affordable and Transparent Pricing</p>
+        </div>
+        <div className="w-[47%]">
+          <div>
+          <video src="https://res.cloudinary.com/db1i46uiv/video/upload/v1706902867/322353679_1114422986247879_597837349875257897_n_gmedmq.mp4"></video>
+          </div>
+        </div>
       </div>
       <div className="tab1 py-16">
         <h1 className="blue text-3xl t-style-2	pb-16">

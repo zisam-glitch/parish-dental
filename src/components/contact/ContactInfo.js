@@ -24,23 +24,29 @@ const ContactInfo = () => {
         Address
       </h2>
       <p className="text-secondary my-2">{contactData?.address}</p>
-      <a
-        className="text-secondary my-2 block"
-        href={"mailto:hello@parishdental.co.uk"}
-      >
-        hello@parishdental.co.uk{" "}
-      </a>
-
       <div className="flex flex-col items-center justify-center gap-3">
-        <a className="text-secondary rd brrd my-2" href="tel:01133228354">
-          0113 322 8354 - PVT.
+        <div className="flex gap-3">
+        <a className="text-secondary rd brrd my-2" href="tel:08000996375">
+        0800 099 6375 - PVT.
         </a>
+        <a className="text-secondary rd brrd my-2" href="mailto:private@parishdental.co.uk">
+        private@parishdental.co.uk
+        </a>
+        </div>
+        <div className="flex gap-3">
         <a
           className="text-secondary bl bbrd my-2"
           href={`tel:${contactData?.phone}`}
         >
           0113 263 8509 - NHS
         </a>
+        <a
+          className="text-secondary bl bbrd my-2"
+          href="mailto:nhs@parishdental.co.uk"
+        >
+         nhs@parishdental.co.uk
+        </a>
+        </div>
       </div>
       <div className="icon-flex">
         <a

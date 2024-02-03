@@ -7,7 +7,7 @@ import CustomGrillz from "../../components/services/CustomGrillz";
 import NotFoundPage from "../404";
 import DomiciliaryCare from "../../components/services/DomiciliaryCare";
 import Whitening from "../../components/services/Whitening/Whitening";
-import ClearAligners from "../../components/services/ClearAligners/ClearAligners";
+import ToothExtraction from "../../components/services/ToothExtraction/ToothExtraction.jsx";
 import GeneralDentistry from "../../components/services/GeneralDentistry/ClearAligners";
 import Cosmetic from "../../components/services/Cosmetic/ClearAligners";
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -40,7 +40,7 @@ const ServicesSinglePage = ({ data }) => {
       {slug === "cosmetic" ? <Cosmetic /> : <NotFoundPage />}
       {slug === "general-dentistry" ? <GeneralDentistry /> : <NotFoundPage />}
       {slug === "aesthetics" ? <FacialAesthetics /> : <NotFoundPage />}
-      {slug === "tooth-extraction" ? <ClearAligners /> : <NotFoundPage />}
+      {slug === "tooth-extraction" ? <ToothExtraction /> : <NotFoundPage />}
       {slug === "mobile-dentistry" ? <DomiciliaryCare /> : <NotFoundPage />}
       {slug === "whitening" ? <Whitening /> : <NotFoundPage />}
       {slug === "custom-grillz" ? <CustomGrillz /> : <NotFoundPage />}
