@@ -31,21 +31,21 @@ const WhyChooseUs = () => {
 
                 <SwiperSlide>
                   <img
-                    className="image object-cover	h-[500px] w-full"
+                    className="image object-cover	h-[300px] md:h-[450px] w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714278/Picture1_kxskcr.png"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    className="image object-cover h-[500px]	 w-full"
+                    className="image object-cover h-[300px] md:h-[450px]	 w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714227/Picture2_kwr8fl.png"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    className="image object-cover	h-[500px] w-full"
+                    className="image object-cover	h-[300px] md:h-[450px] w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714228/Picture3_qq0xbh.png"
                     alt=""
                   />
