@@ -171,18 +171,16 @@ const WhyChooseUs = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-          {/* <iframe
+          <iframe
             className="w-[47%]"
             height="350px"
-            src="https://www.youtube.com/embed/tSeCSNEDl3g?si=s_xNx0s7SezBxk6H"
+            src="https://www.youtube.com/embed/lebQf5sdnLU?si=EA3htKUReIjvyuzj"
             title="About Parish Dental"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-          ></iframe> */}
-          <img
-            className="md:w-[47%]  py-4 w-full h-[350px]"
-            src="https://images.justgiving.com/image/69ebd779-e59c-49eb-96e5-fead51f7edaf.jpg?template=Size800w" alt="" />
+          ></iframe>
+          
         </div>
       </section>
     </>
